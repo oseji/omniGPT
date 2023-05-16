@@ -10,6 +10,36 @@ nav {
   @apply flex flex-col lg:flex-row justify-between items-center pt-5 pb-10;
 }
 
+.sectionTextGrp {
+  @apply w-1/2;
+}
+
+.sectionImgGrp {
+  @apply w-1/2;
+}
+
+.sectionImg {
+  @apply h-110;
+}
+
+.btn {
+  @apply rounded-lg py-2 px-4 font-semibold;
+}
+
+.sectionHeading {
+  @apply text-5xl mb-6;
+}
+
+.headingAltColor {
+  @apply text-headingAlt;
+}
+
+.activeFeature {
+  @apply bg-white;
+}
+
+/**/
+
 .navLogo {
   @apply h-8;
 }
@@ -24,11 +54,7 @@ nav {
 
 /*SECTION 1*/
 .section1 {
-  @apply flex flex-col lg:flex-row justify-between;
-}
-
-.sectionOneTextGrp {
-  @apply w-1/2 mt-10;
+  @apply h-screen flex flex-col lg:flex-row justify-between;
 }
 
 .sectionOneHeading {
@@ -39,14 +65,32 @@ nav {
   @apply text-2xl font-semibold mb-2;
 }
 
-.btn {
-  @apply rounded-lg py-2 px-4 font-semibold;
+/*SECTION 3*/
+.section3 {
+  @apply h-device flex flex-col lg:flex-row justify-center;
 }
 
-.sectionOneImgGrp {
-  @apply w-1/2;
+.feature {
+  @apply rounded-lg p-3 cursor-pointer;
 }
 
-.section1Img {
-  @apply h-110 ml-auto;
+.featureHeading {
+  @apply text-2xl mb-1 font-semibold;
+}
+
+.featureText {
+  @apply mb-5;
+}
+
+/*SECTION 4*/
+.section4 {
+  @apply h-device;
+}
+
+.accessibilityCard {
+  @apply bg-slate-700 w-4/10 mx-auto p-8 rounded-lg;
+}
+
+.priceFeature {
+  @apply mb-3 ml-6;
 }
