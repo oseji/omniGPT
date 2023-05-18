@@ -7,6 +7,7 @@ module.exports = {
         backgroundMain: "#111826",
         section1Btn: " #1FC77E",
         headingAlt: "#1FC77E",
+        trialGreen: " #05E283",
       },
       height: {
         110: "500px",
