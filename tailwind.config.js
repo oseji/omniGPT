@@ -19,6 +19,9 @@ module.exports = {
       width: {
         "4/10": "40%",
       },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],
